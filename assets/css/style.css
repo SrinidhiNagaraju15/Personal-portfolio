@@ -92,7 +92,22 @@
   left: 0;
   background: #0f0f0f; /* Optional darker tone */
 }
+.profile-pic-container {
+  width: 200px;        /* Adjust size */
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid #ffffff22; /* Optional border */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
 
+.profile-pic {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center top; /* crop from top */
+}
 :root {
 
   /**
